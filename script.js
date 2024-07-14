@@ -19,7 +19,7 @@ $(document).ready(function() {
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_14.png",
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_15.png",
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_16.png",
-    ];
+     ];
 
     var flipbook = $('#flipbook');
 
@@ -59,12 +59,11 @@ $(document).ready(function() {
             }
         });
 
-        // Ajustar el tamaño cuando se cambia el tamaño de la ventana
-        $(window).resize(function() {
+        // Añadir event listeners pasivos para mejorar la responsividad
+        $(window).on('resize', function() {
             flipbook.turn('size', isMobile ? $(window).width() : 800, isMobile ? $(window).height() : 600);
         });
 
-        // Añadir event listeners pasivos para mejorar la responsividad
         document.addEventListener('touchstart', function() {}, { passive: true });
     }
 });
