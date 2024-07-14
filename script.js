@@ -21,6 +21,9 @@ $(document).ready(function() {
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_16.png",
      ];
 
+    // Ordenar las URLs alfabéticamente
+    pdfPages.sort();
+
     var flipbook = $('#flipbook');
 
     // Cargar las imágenes de las páginas del catálogo y asegurarse de que están cargadas antes de inicializar Turn.js
