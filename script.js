@@ -19,8 +19,6 @@ $(document).ready(function() {
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_14.png",
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_15.png",
         "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_16.png",
-        "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_17.png",
-        "https://ignacioalcayaga.github.io/Catalogo/Delicias%20donde%20Dany_18.png"
     ];
 
     var flipbook = $('#flipbook');
